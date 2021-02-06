@@ -2,8 +2,11 @@ use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
 
+const MAX_VALUE: u8 = 100;
+const MIN_VALUE: u8 = 1;
+
 fn main() {
-    let the_answer: u32 = rand::thread_rng().gen_range(1..=100);
+    let the_answer: u8 = rand::thread_rng().gen_range(MIN_VALUE..=MAX_VALUE);
 
     println!("Guess the number! [q to quit]");
 
@@ -21,8 +24,8 @@ fn main() {
             break;
         }
 
-        let guess: u32 = match guess.trim().parse() {
-            Ok(num) => num,
+        let guess: u8 = match guess.trim().parse() {
+            Ok(num) => if num > MAX_VALUE { continue; } else { num },
             Err(_) => continue,
         };
 
