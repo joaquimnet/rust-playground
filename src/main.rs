@@ -14,7 +14,7 @@ fn main() {
     println!("First word: {}", first_word(&mutable_car));
 }
 
-fn first_word(s: &String) -> &str {
+fn first_word(s: &str) -> &str {
     let bytes = s.as_bytes();
 
     for (i, &item) in bytes.iter().enumerate() {
@@ -23,5 +23,5 @@ fn first_word(s: &String) -> &str {
         }
     }
 
-    &s[..]
+    s
 }
