@@ -1,18 +1,21 @@
-use std::error::Error;
+mod theme;
 
-use colour::{dark_green, yellow};
 use dotenv::dotenv;
 use newsapi::{get_articles, Articles};
+use std::error::Error;
 
 fn render_articles(articles: &Articles) {
+    let theme = theme::default();
+    theme.print_text("# Top Headlines\n\n");
     for article in &articles.articles {
-        dark_green!("> {}\n", article.title);
-        yellow!("- {}\n\n", article.url);
+        theme.print_text(&format!("**{}**\n", article.title));
+        theme.print_text(&format!("- *{}*\n", article.url));
+        theme.print_text("---")
     }
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
-    dotenv()?;
+    dotenv();
 
     let api_key = std::env::var("NEWS_API_KEY")?;
 
