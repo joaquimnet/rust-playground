@@ -13,4 +13,5 @@ authors = ["Joaquim Neto"]
 crossterm = "0.20.0"
 dotenv = "0.15.0"
 termimad = "0.14.2"
-newsapi = {path = "./newsapi"}
+newsapi = {path = "./newsapi", features = ["async"]}
+tokio = {version = "1.17.0", features = ["full"]}

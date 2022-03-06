@@ -8,4 +8,4 @@ A simple hello world program.
 
 ## 01 - CLI News
 
-A program that uses an API to read FFXIV news.
+A program that uses an API to read top headlines.
