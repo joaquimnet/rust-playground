@@ -26,7 +26,7 @@
 
 > Intermediate. (1-2 days.)
 
--   [ ] Create a sophisticated linked list class. You should be able to insert and delete nodes anywhere in the list, and the linked list should be (doubly linked)[https://en.wikipedia.org/wiki/Doubly_linked_list]. 
+-   [ ] Create a sophisticated linked list class. You should be able to insert and delete nodes anywhere in the list, and the linked list should be [doubly linked](https://en.wikipedia.org/wiki/Doubly_linked_list).
 -   [ ] Create a program that implements a database. The fields are hard-coded, and the data is saved in a binary file. Although this isn't really flexible, you aren't relying on any external libraries or functions.
 -   [ ] Create a command-line todo list. Users should be able to add, complete and delete items. [Reference](https://www.freecodecamp.org/news/how-to-build-a-to-do-app-with-rust/)
 -   [ ] Write a program which acts like a personal planner. A user can input an event, note things to-do on a certain date.
