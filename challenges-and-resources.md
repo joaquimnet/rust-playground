@@ -5,13 +5,19 @@
 -   [ ] Write a program which finds the factorial of a number entered by the user.
 -   [ ] Write a program that prints out a triangle from smallest to largest; user inputs bottom number.
 -   [ ] Develop a program to convert currency X to currency Y and vice versa.
+-   [ ] Binary-to-Decimal number converter.
 -   [ ] Develop a program that uses a randomly generated number to select 1 of 3 (or more) possible responses to show the user.
 -   [ ] Guessing game. Ask the user to guess a number between 1 and a 100. If you guessed correctly, it will say you win. If you're too high or too low it will also let you know.
 -   [ ] Create a program which generates Fibonacci series til a number 'n', where 'n' is entered by the user. Eg if the user enters 10 then the output would be: `1 1 2 3 5 8`
 -   [ ] Given a string, determine how many of the characters are vowels and how many are consonants. Terminate the string when the input character encountered is non-alphabetic.
+-   [ ] Generate a random number in range.
 -   [ ] List all possible combinations of letters in a 4-letter word. Eg 'TEST' can be unscrambled as TEST, TETS, TSET, TSTE, TTSE, TTES, etc.
 -   [ ] Make a program that allows the user to input either the radius, diameter, or area of the circle. The program should then calculate the other 2 based on the input.
 -   [ ] Read a line of text and write it out backwards using a recursive function.
+-   [ ] Color Cycle, Cycle a color value through incremental changes.
+-   [ ] Event Countdown timer.
+-   [ ] CSV to JSON converter.
+-   [ ] Generate lorem ipsum placeholder text.
 -   [ ] Write a program to simulate a simple calculator. It should accept two numbers from the user along with the required operation to be performed. Addition, subtraction, division and multiplication are the basic operations that should be implemented. Feel free to implement other operations. Bonus points for splitting the calculation functions into a separate module.
 -   [ ] Create a simple palindrome checker program. The program should allow the user to enter a string and check whether the given string is a palindrome or not. Only digits and alphabets should be considered while checking for palindromes - any other characters are to be ignored.
 -   [ ] Write a program that allows you to input students' midterm, final and homework scores, and calculate a weighted score. Use the following weights: 20% midterm, 40% final, 40% median homework.
@@ -20,6 +26,7 @@
 -   [ ] Read HTML, remove the tags, then print out the remaining text.
 -   [ ] Tic tac toe game.
 -   [ ] Write a simple payroll program, that would include pay rates, and hours work for employees.
+-   [ ] Search for books by multiple criteria. [API](https://developers.google.com/books/docs/overview)
 -   [ ] Natural Language Detection with [whatlang](https://docs.rs/whatlang/latest/whatlang/).
 
 ## Level 1
