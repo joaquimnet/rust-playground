@@ -1,7 +1,7 @@
 mod theme;
 
 use dotenv::dotenv;
-use newsapi::{Article, Country, Endpoint, NewsAPI, NewsAPIResponse};
+use newsapi::{Article, Country, Endpoint, NewsAPI};
 use std::error::Error;
 
 fn render_articles(articles: &Vec<Article>) {
@@ -16,7 +16,7 @@ fn render_articles(articles: &Vec<Article>) {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    dotenv();
+    dotenv()?;
 
     let api_key = std::env::var("NEWS_API_KEY")?;
 
@@ -27,7 +27,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     let newspi_response = newsapi.fetch_async().await?;
 
-    render_articles(&newspi_response.articles());
+    render_articles(newspi_response.articles());
 
     Ok(())
 }
