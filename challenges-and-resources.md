@@ -117,3 +117,9 @@ Too many linked lists
 Rust Learning
 
 -   <https://github.com/ctjhoa/rust-learning>
+
+### References and Cheat sheets
+
+Conversion Tables
+
+-   <http://carols10cents.github.io/rust-conversion-reference/>
