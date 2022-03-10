@@ -2,7 +2,7 @@
 
 > Beginner. (A few minutes to a couple hours.)
 
--   [ ] Write a program which finds the factorial of a number entered by the user.
+-   [ ] Write a program which finds the factorial of a number entered by the user. [Reference](https://crates.io/crates/text_io) [Reference](https://www.tutorialspoint.com/rust/rust_input_output.htm)
 -   [ ] Write a program that prints out a triangle from smallest to largest; user inputs bottom number.
 -   [ ] Develop a program to convert currency X to currency Y and vice versa.
 -   [ ] Binary-to-Decimal number converter.
@@ -46,7 +46,7 @@
 > Advanced. (1-2 weeks.)
 
 -   [ ] Smart bookmarking tool. [Reference](https://developers.facebook.com/blog/post/2020/06/03/build-smart-bookmarking-tool-rust-rocket/)
--   [ ] Web app with Yew. [Reference](https://yew.rs/next/tutorial).
+-   [ ] Web app with Yew. [Reference](https://yew.rs/next/tutorial) [Reference2](https://www.youtube.com/watch?v=KmOeFrwz8BM&ab_channel=Let%27sGetRusty)
 -   [ ] Async API with Tokio. [Reference](https://levelup.gitconnected.com/building-an-api-using-warp-and-tokio-26a52173860a)
 -   [ ] Clone ls.
 -   [ ] Clone cp.
